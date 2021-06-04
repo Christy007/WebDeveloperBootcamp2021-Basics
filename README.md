@@ -15,7 +15,7 @@ Sample of proper HTML structure is written in the file "ProperHTMLStrucute.html"
   - Then, if there is a navigation tab, define a **< nav >** tag after header tag
   - Define the **< main >** tag next, which will contain the main contents of the web page
     - **< article >** : encloses a block of related content that makes sense on its own without the rest of the page. Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
-    - **< section >** : grouping together a single part of the page that constitutes one single piece of functionality (e.g., a mini map, or a set of article headlines and summaries), or a theme. It's considered best practice to begin each section with a heading. Section can alog be a group of buttons
+    - **< section >** : grouping together a single part of the page that constitutes one single piece of functionality (e.g., a mini map, or a set of article headlines and summaries), or a theme. It's considered best practice to begin each section with a heading. Section can also be a group of buttons
     - **< aside >** : contains content that is not directly related to the main content but can provide additional information indirectly related to it (glossary entries, author biography, related links, etc.).
   - At the end we can define **< footer >** which represents a group of end content for a page.
 
