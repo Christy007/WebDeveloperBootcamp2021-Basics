@@ -24,7 +24,16 @@ Sample of proper HTML structure is written in the file "ProperHTMLStrucute.html"
   ## HTML Elements
   * **< p >** element **represents** a paragraph. Paragraphs are usually represented in visual media as **blocks of text** separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.
   * The **< h1 > to < h6 >** HTML elements represent six levels of section headings. **We should never select different heading elements, just to adjust the size**. We should atmost have only one < h1 > in our file. We should not have an < h3 > without h2 and h1, simillarly for other header elements as well.
-  * **< ol >**
+  * **< ol >** is ordered list which lists the elements with numbers <br>
+    **< ul >** is unordered list which lists the elements with bullets <br>
+    Permitted contents in both < ol > and < ul > are **< li >, < script > and < template >** <br>
+    Its not good design to add other components in ol and ul
+  * **< a >** Anchor tags are defined with the href attribute. Attribues are special words inside a open tag which controls the elements behaviour.<br>
+    **href** attribute specifies the link to which the anchor tag has to be redirected.
+    href can redirect user to another website or to webpages within the same website.
+  * **< img >** is used to add image to our webpage.<br>
+    Main attributes for img element are **src** to sepecify the location of the image. It can be local pictures or any online links<br>
+    Next attrivbute is **alt** which describes the image making it more accessible to all users using screen readers
   
 
   
