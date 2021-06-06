@@ -8,7 +8,7 @@
 - **< title >** tag represents the title for the document tab.
 - **!+tab** shortcut can be used to generate a sample boilerplate in Visual Studio Code.
 
-Sample of proper HTML structure is written in the file "ProperHTMLStrucute.html"<br>
+Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.html"**<br>
 - Few main things that we have to take care while building a html page
   - Try to build semantic webpages, avoid using non-semantic wrappers like < div > and < span >  unless it's necessary
   - In body tag, start with **< header >** tag which contains the header of the webpage
@@ -34,7 +34,7 @@ Sample of proper HTML structure is written in the file "ProperHTMLStrucute.html"
   * **< img >** is used to add image to our webpage.<br>
     Main attributes for img element are **src** to sepecify the location of the image. It can be local pictures or any online links<br>
     Next attrivbute is **alt** which describes the image making it more accessible to all users using screen readers
-  
+  * 
 
   
  ###### References:
