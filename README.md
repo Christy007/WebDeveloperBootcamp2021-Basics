@@ -33,7 +33,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     href can redirect user to another website or to webpages within the same website.
   * **< img >** is used to add image to our webpage.<br>
     Main attributes for img element are **src** to sepecify the location of the image. It can be local pictures or any online links<br>
-    Next attrivbute is **alt** which describes the image making it more accessible to all users using screen readers
+    Next attribute is **alt** which describes the image making it more accessible to all users using screen readers
   * 
 
   
