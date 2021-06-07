@@ -1,4 +1,4 @@
-# WebDeveloperBootcamp2021
+# WebDeveloperBootcamp2021 -- In progress!!!!
 
 # HTML Boilerplate
 - It is the structure of the html file.
@@ -34,6 +34,8 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   * **< img >** is used to add image to our webpage.<br>
     Main attributes for img element are **src** to sepecify the location of the image. It can be local pictures or any online links<br>
     Next attribute is **alt** which describes the image making it more accessible to all users using screen readers
+  * **< div >** : Content Division Element: basically a container to group elements together. It's a block level element(which takes up the whole line)
+  * **< span >** It's also a container, usually used to group elements ot texts in the same line.
   * 
 
   
