@@ -10,13 +10,17 @@
 
 Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.html"**<br>
 - Few main things that we have to take care while building a html page
-  - Try to build semantic webpages, avoid using non-semantic wrappers like < div > and < span >  unless it's necessary
+  - Try to **build semantic webpages**, avoid using non-semantic wrappers like < div > and < span >  unless it's necessary
+  - Building a semantic webpage makes your script more meaningfull and readable
   - In body tag, start with **< header >** tag which contains the header of the webpage
   - Then, if there is a navigation tab, define a **< nav >** tag after header tag
   - Define the **< main >** tag next, which will contain the main contents of the web page
     - **< article >** : encloses a block of related content that makes sense on its own without the rest of the page. Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
     - **< section >** : grouping together a single part of the page that constitutes one single piece of functionality (e.g., a mini map, or a set of article headlines and summaries), or a theme. It's considered best practice to begin each section with a heading. Section can also be a group of buttons
     - **< aside >** : contains content that is not directly related to the main content but can provide additional information indirectly related to it (glossary entries, author biography, related links, etc.).
+    - **< time >** : represents a specific period in time. **datetime** attribute translates date into machine readable format<br>
+     Example: next interview preparation class is on <strong>< time datetime="2021-06-08">8th June< /time></strong> which starts at <strong>< time datetime="18:00">18:00<            /time></strong>. With the help of this element we can make our code more semantic.
+    - **< figure >** : This is again a html element that we can use to make our code more semantic. Using this element we can **containerize image and its caption** together
   - At the end we can define **< footer >** which represents a group of end content for a page.
 
 # < HTML >
@@ -36,8 +40,15 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     Next attribute is **alt** which describes the image making it more accessible to all users using screen readers
   * **< div >** : Content Division Element: basically a container to group elements together. It's a block level element(which takes up the whole line)
   * **< span >** It's also a container, usually used to group elements ot texts in the same line.
-  * 
-
+  * **< hr>** represents a thematic break between paragraph elements as implemented before and after the nav section at the begining of this webpage<br>
+  * **< br>** is used as a line break in paragraph
+  * **< sup>** Superscripts are usually rendered with a raised baseline using smaller text.<br>
+    Example: x<sup><a href="https://github.com/Christy007/WebDeveloperBootcamp2021/edit/master/README.md">2</a></sup> + y<sup>**2**</sup>
+  * **< sub>** Subscripts are typically rendered with a lowered baseline using smaller text
+    Example: C<sub>**8**</sub>H<sub>**10**</sub>N<sub>**4**</sub>O<sub>**2**</sub>
+  * **Entity codes** with entity code we can display symbols or specials characters in our html to build a strucuted html code
+    * Usually starts with ampersand and ends with a semicolon, example: "&**amp**;"
+    * Browser will intrpret this code and will render the correct code
   
  ###### References:
   * https://developer.mozilla.org/
