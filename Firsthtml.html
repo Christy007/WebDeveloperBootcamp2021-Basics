@@ -179,9 +179,183 @@
                             element we can containerize image and its caption together
                         </p>
                         <figure>
-                            <img src="Images/mountainCoveredWithSnow.jpg" alt="Mounatin covered in snow" width="300" height="200">
+                            <img src="Images/mountainCoveredWithSnow.jpg" alt="Mounatin covered in snow" width="300"
+                                height="200">
                             <figcaption>-- Mountain covered in snow</figcaption>
                         </figure>
+                    </li>
+                    <li>
+                        <h3>Table</h3>
+                        <p>It is structured set of data built using rows and columns <br>
+                            < caption> displays the caption for the table <br>
+                                < td> represents a cell of the table that contains data <br>
+                                    < tr> represents row of cells in a table <br>
+                                        < th> represents a cell as header. Text entered in in this cell are default
+                                            Bold<br>
+                                            < thead> defines set of rows defining the head of the columns <br>
+                                                < tbody> defines set of rows that below to the body of the table <br>
+                                                    < tfoot> defines a set of rows summarizing the columns of the table
+                                                        <br>
+                                                        <strong>colspan</strong> this attribute indicates how many
+                                                        columns the cell extends <br>
+                                                        <strong>rowspan</strong> this attribute indicates how many rows
+                                                        the cell extends
+                        </p>
+                        <table>
+                            <caption>Sample table structure</caption>
+                            <thead>
+                                <tr>
+                                    <th>Header1</th>
+                                    <th colspan="2">Header2 with <em>colspan</em> &#61; 2</th>
+                                    <th>Header3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cell1 in Row1</td>
+                                    <td>Cell2 in Row1</td>
+                                    <td>Cell3 in Row1</td>
+                                    <td>Cell4 in Row1</td>
+                                </tr>
+                                <tr>
+                                    <td>Cell1 in Row2</td>
+                                    <td>Cell2 in Row2</td>
+                                    <td>Cell3 in Row2</td>
+                                    <td>Cell4 in Row2</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td rowspan="2">cell with <strong><em>rowspan</em></strong>&#61;2</td>
+                                    <td>footer1 cell2</td>
+                                    <td>footer1 cell3</td>
+                                    <td>footer1 cell4</td>
+                                </tr>
+                                <tr>
+                                    <td>footer2 cell2</td>
+                                    <td>footer2 cell3</td>
+                                    <td>footer2 cell4</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </li>
+                    <li>
+                        <h3>Form</h3>
+                        <p>
+                            < form> represents a document section containing interactive controls for submitting
+                                information <br>
+                                main attributes of form are: <br>
+                                1. <strong>action</strong> : which specifies where the form data should be sent. <br>
+                                2. <strong>method</strong> : specifies which HTTP method to be used.
+                        </p>
+                        <p><strong>
+                                < input>
+                            </strong> element is used to create different form controls <br>
+                            <strong>type</strong> attribute alters the input's behaviour and appearance <br>
+                            <strong>search</strong> attribute value for type element represents a single-line text field
+                            for entering search
+                            strings. May include a delete icon in supporting browsers that can be used to clear the
+                            field <br>
+                            <strong>checkbox</strong> attribute value for type element allows single values to be
+                            selected/deselected. <br>
+                            <strong>radio</strong> attribute value for type element allows a single value to be selected
+                            out of multiple choices with the same name value. <br>
+                            <strong>range</strong> attribute value for the type element displays as a range widget. <br>
+                            <strong>placeholder</strong> attribute gives the input field a default text. <br>
+                            <strong>
+                                < label>
+                            </strong> element is used to link the input/form control to a text/label.
+                            Value of <strong>for</strong> attribute in label tag should match with the value of
+                            <strong>id</strong> attribute in respective input tag <br>                            
+                            <strong>< button ></strong> element declared inside a form is by default of submit type. To
+                            chnage
+                            the functionality of the button inside a form we use the attribute <strong>type</strong>.
+                            type="button" make a button inside a form behave just like a normal button. <br>
+                            <strong>name</strong> attribute helps to link the data in the input fields with the query
+                            parameters of the server, when a form is submitted <br>
+                            <strong>< select ></select></strong> element creates a dropdown and the values in the dropdown is defined
+                            by option tag <br>                            
+                            <strong>< textarea ></strong> element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback
+
+                        </p>
+                        <form action="/taco/" method="get">
+                            <h4>Form1</h4>
+                            <section>
+                                <label for="username">Username: </label>
+                                <input name="username" id="username" type="text" placeholder="Enter Username">
+                            </section>
+
+                            <section>
+                                <label for="password">Password: </label>
+                                <input name="password" id="password" type="password" placeholder="Enter Password">
+                            </section>
+
+                            <section>
+                                <label for="color">Select a color: </label>
+                                <input name="color" id="color" type="color">
+                            </section>
+
+                            <section>
+                                <label for="number">Select a number: </label>
+                                <input name="number" id type="number" placeholder="Enter a number">
+                            </section>
+
+                            <button>Submit</button>
+
+                        </form>
+                        <form action="https://www.reddit.com/search/" method="GET">
+                            <h4>Form2</h4>
+                            <section>
+                                <label for="search">Reddit search</label>
+                                <input name="q" id type="search">
+                            </section>
+
+                            <button>Search</button>
+                        </form>
+
+                        </form>
+                        <form action="https://www.google.com/search" method="GET">
+                            <h4>Form3</h4>
+                            <section>
+                                <label for="search">Google search</label>
+                                <input name="q" id type="search">
+                            </section>
+
+                            <button>Search</button>
+                        </form>
+
+                        </form>
+                        <form action="random/" method="GET">
+                            <h4>More input elements</h4>
+                            <h4>Form4</h4>
+                            <section>
+                                <input type="checkbox" name="tos" id="tos">
+                                <label for="tos">I agree to the terms of service</label>
+                                <section>Subscribe :
+                                    <label for="yes">Yes</label>
+                                    <input id="yes" name="subscribe" value="Yes" type="radio">
+                                    <label for="no">No</label>
+                                    <input id="no" name="subscribe" value="No" type="radio" checked>
+                                </section>
+                                <label for="src">How did you find my github repository? </label>
+                                <select name="src" id="src">
+                                    <option value="google">Google</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="youtube">Youtube</option>
+                                    <option value="github">GitHub</option>
+                                    <option value="select_one" selected>Please select one</option>
+                                </select>
+                                <section>
+                                    <label for="rating">Rate us: </label>
+                                    <input id="rating" type="range" name="rating_level" min="1" max="5" value="1">
+                                </section>
+                                <section>
+                                    <label for="feedback">Feedback :</label><br>
+                                    <textarea name="feedback" id="feedback" cols="40" rows="10" placeholder="Enter your feedback here"></textarea>
+                                </section>
+                            </section>
+                            <button>Search</button>
+                        </form>
                     </li>
                 </ol>
 
