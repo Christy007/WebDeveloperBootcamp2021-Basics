@@ -49,6 +49,35 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   * **Entity codes** with entity code we can display symbols or specials characters in our html to build a strucuted html code
     * Usually starts with ampersand and ends with a semicolon, example: "&**amp**;"
     * Browser will intrpret this code and will render the correct code
+  * **< table >** It is structured set of data built using rows and columns <br>
+    * **< caption>** displays the caption for the table <br>
+    * **< td>** represents a cell of the table that contains data <br>
+    * **< tr>** represents row of cells in a table <br>
+    * **< th>** represents a cell as header. Text entered in in this cell are default Bold<br>
+    * **< thead>** defines set of rows defining the head of the columns <br>
+    * **< tbody>** defines set of rows that below to the body of the table <br>
+    * **< tfoot>** defines a set of rows summarizing the columns of the table <br>
+    * <strong>colspan</strong> this attribute indicates how many columns the cell extends <br>
+    * <strong>rowspan</strong> this attribute indicates how many rows the cell extends
+  * **< form >** represents a document section containing interactive controls for submitting information <br>
+    * main attributes of form are: <br>
+      1. <strong>action</strong> : which specifies where the form data should be sent. <br>
+      2. <strong>method</strong> : specifies which HTTP method to be used.
+    * <strong>< input></strong> element is used to create different form controls <br>
+      * <strong>type</strong> attribute alters the input's behaviour and appearance <br>
+        * <strong>search</strong> attribute value for type element represents a single-line text field for entering search strings. May include a delete icon in supporting                 browsers that can be used to clear the field <br>
+        * <strong>checkbox</strong> attribute value for type element allows single values to be selected/deselected. <br>
+        * <strong>radio</strong> attribute value for type element allows a single value to be selected out of multiple choices with the same name value. <br>
+        * <strong>range</strong> attribute value for the type element displays as a range widget. <br>
+        * **password** type encrypts the value entered by the user
+        * **color** type displays a color widget where user can select a color
+      * <strong>name</strong> attribute helps to link the data in the input fields with the query parameters of the server, when a form is submitted <br>
+      * <strong>placeholder</strong> attribute gives the input field a default text. <br>
+    * <strong>< label ></strong> element is used to link the input/form control to a text/label.
+      * Value of <strong>for</strong> attribute in label tag should match with the value of <strong>id</strong> attribute in respective input tag <br>
+    * <strong>< button ></strong> element declared inside a form is by default of submit type. To chnage the functionality of the button inside a form we use the attribute                 <strong>type</strong>. type="button" makes a button inside a form behave just like a normal button. <br>    
+    * <strong>< select ></strong> element creates a dropdown and the values in the dropdown is defined by **< option >** tag
+    * <strong>< textarea ></strong> element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback
   
  ###### References:
   * https://developer.mozilla.org/
