@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Registration</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration!</h1>
+    </header>
+    <main>
+        <form action="dummy/" method="GET">
+            <section>
+                <label for="first_name">First Name</label>
+                <input name="first_name" id="first_name" type="text" required>
+                <label for="last_name">Last Name</label>
+                <input name="last_name" id="last_name" type="text" required>
+            </section>
+            <section>
+                <p>Select a Race:</p>
+                <section>
+                    <input type="radio" name="race_type" id="5k">
+                    <label for="5k">Fun Run 5k</label>
+                </section>
+                <section>
+                    <input type="radio" name="race_type" id="hm">
+                    <label for="hm">Half Marathon</label>
+                </section>
+                <section>
+                    <input type="radio" name="race_type" id="fm">
+                    <label for="fm">Full Marathon</label>
+                </section>
+                <section>
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" required>
+                    <label for="pass">Password</label>
+                    <input name="pass" id="pass" type="password" required>
+                </section>
+                <section>
+                    <label for="age">Select age group</label>
+                    <select name="age" id="age">
+                        <option value="under 18" selected>Under 18</option>
+                        <option value="19-30">19-30</option>
+                        <option value="31-50">31-50</option>
+                        <option value="50+">50&plus;</option>
+                    </select>
+                </section>
+                <button>Register!</button>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>

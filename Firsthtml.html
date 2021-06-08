@@ -329,13 +329,15 @@
                             <h4>More input elements</h4>
                             <h4>Form4</h4>
                             <section>
-                                <input type="checkbox" name="tos" id="tos">
+                                <label for="email">Email: </label>
+                                <input placeholder="Enter your email" name="email" id="email" type="email" required> <br>
+                                <input type="checkbox" name="tos" id="tos" required>
                                 <label for="tos">I agree to the terms of service</label>
                                 <section>Subscribe :
                                     <label for="yes">Yes</label>
                                     <input id="yes" name="subscribe" value="Yes" type="radio">
                                     <label for="no">No</label>
-                                    <input id="no" name="subscribe" value="No" type="radio" checked>
+                                    <input id="no" name="subscribe" value="No" type="radio">
                                 </section>
                                 <label for="src">How did you find my github repository? </label>
                                 <select name="src" id="src">
@@ -351,7 +353,7 @@
                                 </section>
                                 <section>
                                     <label for="feedback">Feedback :</label><br>
-                                    <textarea name="feedback" id="feedback" cols="40" rows="10" placeholder="Enter your feedback here"></textarea>
+                                    <textarea name="feedback" id="feedback" cols="40" rows="10" placeholder="Enter your feedback here" required></textarea>
                                 </section>
                             </section>
                             <button>Search</button>
