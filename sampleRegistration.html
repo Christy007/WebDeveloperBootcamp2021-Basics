@@ -6,10 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Registration</title>
+    <!-- not recommended -->
+    <!-- <style>
+        input{
+            border-width: thick;
+        }
+    </style> -->
+
+    <!-- Best way to assign css to html  -->
+    <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
     <header>
+        <!-- Not a good idea -->
+        <!-- <h1 style="background-color: forestgreen;">Registration!</h1> -->
         <h1>Registration!</h1>
     </header>
     <main>
@@ -23,15 +34,15 @@
             <section>
                 <p>Select a Race:</p>
                 <section>
-                    <input type="radio" name="race_type" id="5k">
-                    <label for="5k">Fun Run 5k</label>
+                    <input type="radio" name="race_type" id="fun_run5k" value="fun_run5k">
+                    <label for="fun_run5k">Fun Run 5k</label>
                 </section>
                 <section>
-                    <input type="radio" name="race_type" id="hm">
+                    <input type="radio" name="race_type" id="hm" value="hm">
                     <label for="hm">Half Marathon</label>
                 </section>
                 <section>
-                    <input type="radio" name="race_type" id="fm">
+                    <input type="radio" name="race_type" id="fm" value="fm">
                     <label for="fm">Full Marathon</label>
                 </section>
                 <section>
