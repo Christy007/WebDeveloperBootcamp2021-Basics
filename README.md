@@ -91,11 +91,11 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     1. You can specifify the stle in htnl tag <br>
        < h1 **style="background-color: red"** >
     2. With the help of **< style >** tag we can define the style properties in < head > tag <br>
-       **< style >** <br>
-                  selector{ <br>
-                      property: value; <br>
-                          } <br>
-                **< / style >**
+        **< style >** <br>
+        selector{ <br>
+        property: value; <br>
+        } <br>
+        **< / style >**
    * Above listed 2 ways of styling a html element is **NOT RECOMMENDED**
    * Best way to add style is to create a .css file and link it to html tag using **< link >** tag
      * **rel** attribute specifies the relation of the linked file to the document
@@ -109,8 +109,12 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   * **font-weight** sets the boldness of the element
   * **text-decoration** sets the appearance of decorative lines on text
   * **line-height** sets the height of the line(to maintain a proper gap between lines)
+  * **letter-spacing** sets the horizontal spacing behavior between text characters
+  * **font-size** basically sets the size of the text, it increases both height and width of the text
+  * **font-family** specifies which font to be used. We can also build a font stack, if user's system doesn't support the intial font, then it can pick-up any font listed in the stack.
+  * **text-transform** specifies how to capitalize an element's text
   
- <hr>
+  <hr>
   
  ###### References:
   * https://developer.mozilla.org/
