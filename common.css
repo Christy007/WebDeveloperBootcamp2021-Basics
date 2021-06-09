@@ -1,0 +1,48 @@
+html{
+    background-color: #FF5733;
+}
+
+header{
+    background-color: rgb(10, 250, 217);
+    text-align: center;
+    text-decoration: double underline overline;
+    line-height: 2;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-family: cursive, sans-serif;    
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+h3{
+    text-decoration: red dotted underline;
+}
+
+nav{
+    background-color: #ffc300;
+}
+
+main{
+    background-color: #9AFF33;
+}
+
+footer{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+label{
+    color:gray;
+}
+
+button{
+    color: green;
+}
+
+figure{
+    color: orangered;
+}
