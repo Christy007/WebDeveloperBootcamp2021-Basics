@@ -98,11 +98,17 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
                 **< / style >**
    * Above listed 2 ways of styling a html element is **NOT RECOMMENDED**
    * Best way to add style is to create a .css file and link it to html tag using **< link >** tag
+     * **rel** attribute specifies the relation of the linked file to the document
+     * **href** specifies the location of the file
  
 ## CSS properties
   *Sample file:* ***common.css***
   * **color** property sets the foreground color of the element's **text**
   * **background-color** sets the background color of an element
+  * **text-align** sets the horizontal alignment of the content inside a block element
+  * **font-weight** sets the boldness of the element
+  * **text-decoration** sets the appearance of decorative lines on text
+  * **line-height** sets the height of the line(to maintain a proper gap between lines)
   
  <hr>
   
