@@ -99,7 +99,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
    * Above listed 2 ways of styling a html element is **NOT RECOMMENDED**
    * Best way to add style is to create a .css file and link it to html tag using **< link >** tag
      * **rel** attribute specifies the relation of the linked file to the document
-     * **href** specifies the location of the file
+     * **href** specifies the location of the file.
  
 ## CSS properties
   *Sample file:* ***common.css***
