@@ -113,6 +113,12 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   * **font-size** basically sets the size of the text, it increases both height and width of the text
   * **font-family** specifies which font to be used. We can also build a font stack, if user's system doesn't support the intial font, then it can pick-up any font listed in the stack.
   * **text-transform** specifies how to capitalize an element's text
+         
+  ### More Css selectors
+  *Sample file:* ***css2.css***
+  * **&#42;** this represents a universal selector, changes to the proerties made using this selector will apply to all element
+  * **h1,h2** represents a selector list, css style will be applied to all the elements listed
+  * **descendant selector** selector "li a" represent that css style will be applied to all  anchor tags nested inside li tag
   
   <hr>
   
