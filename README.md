@@ -9,7 +9,7 @@
 - **!+tab** shortcut can be used to generate a sample boilerplate in Visual Studio Code.
 
 Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.html"**<br>
-- Few main things that we have to take care while building a html page
+- Few main things that we have to take care while building a html page.
   - Try to **build semantic webpages**, avoid using non-semantic wrappers like < div > and < span >  unless it's necessary
   - Building a semantic webpage makes your script more meaningfull and readable
   - In body tag, start with **< header >** tag which contains the header of the webpage
