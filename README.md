@@ -139,8 +139,11 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     * **class selector** is pretty specific, it beats out the total number of element selectors (Class, Attribute and Pseudo-class selectors)
     * **element selector** is least specific (element, Pseudo-element selector)
          
-         
-  
+  ### Inheritance      
+  * If the child elements doesnt have any property values set, then they can inherit the parent properties<br>
+    **ex:** childElementSelector{<br>
+    color: inherit;<br>
+    }<br>
   
   <hr>
   
