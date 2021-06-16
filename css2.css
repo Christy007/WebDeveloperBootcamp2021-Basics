@@ -1,4 +1,8 @@
-*{
+/* *{
+    color: darkcyan;
+} */
+
+html{
     color: darkcyan;
 }
 
@@ -71,10 +75,14 @@ h3::first-letter{
     font-size: 30px;
 }
 
-ol>li>h3+p::first-line{
+#section1 h3+p::first-line{
     color:red;
 }
 
-form{
-    color: black;
+#form1{
+    color: hotpink;
+}
+
+#username{
+    color: inherit;
 }
