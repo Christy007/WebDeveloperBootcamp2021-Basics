@@ -117,8 +117,10 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   ### More Css selectors
   *Sample file:* ***css2.css***
   * **&#42;** this represents a universal selector, changes to the proerties made using this selector will apply to all element
-  * **h1,h2** represents a selector list, css style will be applied to all the elements listed
-  * **descendant selector** selector "li a" represent that css style will be applied to all  anchor tags nested inside li tag
+ * **h1,h2** represents a selector list, css style will be applied to all the elements listed
+  * **descendant selector**, selector **li a** represent that css style will be applied to all  anchor tags nested inside li tag
+  * **adjacent selector**, selector **h3 + p** represent that the css style will be applied to all paragraph tags that is immediately preceeding after h3
+  * **direct child**, selector **form > h4** selects all h4 which is direct-child/direct-descendant of form
   
   <hr>
   
