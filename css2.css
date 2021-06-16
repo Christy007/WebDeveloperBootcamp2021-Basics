@@ -2,6 +2,10 @@
     color: darkcyan;
 }
 
+::selection{
+    background-color: yellowgreen;
+}
+
 img{
     width: 300px;
     height: 200px;
@@ -31,4 +35,46 @@ h3+p{
 
 form > h4{
     color: orangered;
+}
+
+input[type="email"]{
+    background-color: greenyellow;
+    color: darkred;
+}
+
+h4[class*="eForm"]{
+    color: yellowgreen;
+}
+
+a:hover{
+    background-color:magenta;
+    text-decoration: white double underline;
+}
+
+#form4 button:active{
+    background-color: yellowgreen;
+}
+
+#form4 option:checked{
+    color: yellowgreen;
+}
+
+#form4 input[type="radio"]:checked + label{
+    color:yellowgreen;
+}
+
+li[class="separateSection"]:nth-of-type(2n){
+    background-color: #daf08c;
+}
+
+h3::first-letter{
+    font-size: 30px;
+}
+
+ol>li>h3+p::first-line{
+    color:red;
+}
+
+form{
+    color: black;
 }
