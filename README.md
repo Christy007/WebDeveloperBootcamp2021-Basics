@@ -127,8 +127,17 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
          :active<br>
          :checked<br>
          :nth-of-type(n)
-  * **pseudo elements** are the keywords added to a selector that lets you style a particular part of the selected elemnets
+  * **pseudo elements** are the keywords added to a selector that lets you style a particular part of the selected elemnets<br>
          ::first-letter<br>
+         ::first-line<br>
+         ::selection
+         
+  ### Specificity
+  * Specificity is how the browser decides which rules to apply when multiple rules could apply to the same element
+  * Specificity is calulated based on three main elements:
+    * **ID selector** is extremely specific, it beats out the total number of class selectors (ID selectors)
+    * **class selector** is pretty specific, it beats out the total number of element selectors (Class, Attribute and Pseudo-class selectors)
+    * **element selector** is least specific (element, Pseudo-element selector)
          
          
   
