@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First HTML page</title>
-    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="css2.css">
 </head>
 
 <body>
@@ -67,7 +67,7 @@
                         <h3>Lists</h3>
                         <p>
                             <span>
-                                < ol> is <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">ordered
+                                < ol> is <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" class="tag">ordered
                                         list</a> which lists the elements with numbers.
                             </span><br>
                             < ul> is unordered list which lists the elements with bullets <br>
@@ -91,7 +91,7 @@
                     <li>
                         <h3>Anchor tag</h3>
                         <p>
-                            < a> is <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">anchor
+                            < a> is <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" class="tag">anchor
                                     tag</a><br>
                                 Anchor tags are defined with the href attribute. Attribues are special words inside a
                                 open
@@ -101,8 +101,7 @@
                     </li>
                     <li>
                         <h3>Image</h3>
-                        <img src="Images/Smaple.jpg" alt="A man standing in front of a farm field raising his hands"
-                            width="300" height="200"><br>
+                        <img src="Images/Smaple.jpg" alt="A man standing in front of a farm field raising his hands"><br>
                         <!-- setting width and height for images in html is not a good practice -->
                         <p>
                             < img> is used to add image to our webpage.<br>
@@ -180,8 +179,7 @@
                             element we can containerize image and its caption together
                         </p>
                         <figure>
-                            <img src="Images/mountainCoveredWithSnow.jpg" alt="Mounatin covered in snow" width="300"
-                                height="200">
+                            <img src="Images/mountainCoveredWithSnow.jpg" alt="Mounatin covered in snow">
                             <figcaption>-- Mountain covered in snow</figcaption>
                         </figure>
                     </li>
@@ -298,7 +296,7 @@
 
                             <section>
                                 <label for="number">Select a number: </label>
-                                <input name="number" id type="number" placeholder="Enter a number">
+                                <input name="number" id="number" type="number" placeholder="Enter a number">
                             </section>
 
                             <button>Submit</button>
@@ -307,8 +305,8 @@
                         <form action="https://www.reddit.com/search/" method="GET">
                             <h4>Form2</h4>
                             <section>
-                                <label for="search">Reddit search</label>
-                                <input name="q" id type="search">
+                                <label for="rsearch">Reddit search</label>
+                                <input name="q" id="rsearch" type="search">
                             </section>
 
                             <button>Search</button>
@@ -318,8 +316,8 @@
                         <form action="https://www.google.com/search" method="GET">
                             <h4>Form3</h4>
                             <section>
-                                <label for="search">Google search</label>
-                                <input name="q" id type="search">
+                                <label for="gsearch">Google search</label>
+                                <input name="q" id="gsearch" type="search">
                             </section>
 
                             <button>Search</button>
