@@ -121,6 +121,17 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   * **descendant selector**, selector **li a** represent that css style will be applied to all  anchor tags nested inside li tag
   * **adjacent selector**, selector **h3 + p** represent that the css style will be applied to all paragraph tags that is immediately preceeding after h3
   * **direct child**, selector **form > h4** selects all h4 which is direct-child/direct-descendant of form
+  * **attribute selector**, ex: h4[class*="eForm"] selects all h4 where class contains the text "eForm"
+  * **pseudo classes** are the keywords added to a selector that specifies a special state of the element selected<br>
+         :hover<br>
+         :active<br>
+         :checked<br>
+         :nth-of-type(n)
+  * **pseudo elements** are the keywords added to a selector that lets you style a particular part of the selected elemnets
+         ::first-letter<br>
+         
+         
+  
   
   <hr>
   
