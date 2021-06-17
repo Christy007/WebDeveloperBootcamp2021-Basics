@@ -138,11 +138,12 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     * **ID selector** is extremely specific, it beats out the total number of class selectors (ID selectors)
     * **class selector** is pretty specific, it beats out the total number of element selectors (Class, Attribute and Pseudo-class selectors)
     * **element selector** is least specific (element, Pseudo-element selector)
+  * **!important** keyword can override specificity, properties assigned !important will be applied compulsorly no matter what is the 
          
   ### Inheritance      
   * If the child elements doesnt have any property values set, then they can inherit the parent properties<br>
     **ex:** childElementSelector{<br>
-    color: inherit;<br>
+    color: **inherit** ;<br>
     }<br>
   
   <hr>
