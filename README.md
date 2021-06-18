@@ -147,6 +147,14 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     }<br>
   
   ### CSS Box Model
+  * 4 main aspects of box model are
+    * **Content box**
+    * **Border**
+    * **Padding**
+    * **Margin**
+  * **width** sets the width of the content area
+  * 
+         
   
   <hr>
   
