@@ -146,6 +146,8 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     color: **inherit** ;<br>
     }<br>
   
+  ### CSS Box Model
+  
   <hr>
   
  ###### References:
