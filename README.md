@@ -153,8 +153,39 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     * **Padding**
     * **Margin**
   * **width** sets the width of the content area
-  * 
+  * **height** defines the height of the content area
+  * **border** sets the element's border. We have three main border properties:
+    * **border-width** : sets the width of the border element. px is the most commonly used unit as the border-width is constant all the time
+    * **border-color** : sets the color of border element
+    * **border-style** : sets the line style for all four sides of an element's border
+  * **box-sizing** this property can be used if you dont want the element to takeup extra space to implement the border
+  * Also width, style and color for each sides of the border can be set separately using properties like **border-left-color**, **border-right-width**....
+  * **border** can be used to set all three main properties at once, instead of writing different line of code for each property<br>
+    ex: border **width** **style** **color**
+  * **border-radius** this property is used to round the corners of the element's outer border edge. Commonly used unit is %
+  * **padding** is the space/gap between the actual content box and the border
+    * padding can be set individually for each side or we can use the shorthand<br> 
+      ex: padding: 10px 20px;
+  * **margin** is the space/gap between the two elements, basically the margin area on all four sides of an element
+    * margin can also be set individually for each side or we can use the shorthand<br> 
+      ex: margin: 10px 20px;
+  * **body** element by default has margin set to a default value, to remove this margin we can use margin property and set it to 0
+   
+  ###Display property
+  * **display** property sets whether an element is treated as a block or inline element. we have three main values for display
+    * **inline** width and height are ignored. Margin and padding push elements away horizontally but not vertically
+    * **block** block elements break the flow of a document. Width, Height, Margin and Padding are respected
+    * **inline-block** behaves like an inline element but Width, Height, Margin and Padding are respected
          
+  ###Units
+  * **px** is the most commonly used **absolute** unit
+  * **%** sometimes, it's a value from the parent and other times it's a value from the element itself
+    * **width: 50%** - half the width of the parent
+    * **line-height: 50%** - half the font-size of the element itself
+  * **em** there are **relative** units. With font-size property, 1em equals the font-size of the parent. 2 em's is twice the font-size of the parent. With other properties, 1 em is equal to the computed font-size of the element itself.
+  * Disadvantage of **em** is that, if we have same elements nested, there are chances that the child elements increase or decrease their size drastically as each child elements size depends on its immediate parent font-size
+  * **rem** Root EMS are relative to the root html element's font-size. Often easier to work with.
+    
   
   <hr>
   
