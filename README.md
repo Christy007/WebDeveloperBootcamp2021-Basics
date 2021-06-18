@@ -171,13 +171,13 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
       ex: margin: 10px 20px;
   * **body** element by default has margin set to a default value, to remove this margin we can use margin property and set it to 0
    
-  ###Display property
+  ### Display property
   * **display** property sets whether an element is treated as a block or inline element. we have three main values for display
     * **inline** width and height are ignored. Margin and padding push elements away horizontally but not vertically
     * **block** block elements break the flow of a document. Width, Height, Margin and Padding are respected
     * **inline-block** behaves like an inline element but Width, Height, Margin and Padding are respected
          
-  ###Units
+  ### Units
   * **px** is the most commonly used **absolute** unit
   * **%** sometimes, it's a value from the parent and other times it's a value from the element itself
     * **width: 50%** - half the width of the parent
