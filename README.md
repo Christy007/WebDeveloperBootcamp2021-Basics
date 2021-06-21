@@ -183,7 +183,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     * **width: 50%** - half the width of the parent
     * **line-height: 50%** - half the font-size of the element itself
   * **em** there are **relative** units. With font-size property, 1em equals the font-size of the parent. 2 em's is twice the font-size of the parent. With other properties, 1 em is equal to the computed font-size of the element itself.
-  * Disadvantage of **em** is that, if we have same elements nested, there are chances that the child elements increase or decrease their size drastically as each child elements size depends on its immediate parent font-size
+  * Disadvantage of **em** is that, if we have same elements nested, there are chances that the child elements increase or decrease their size drastically as each child elements size depends on its immediate parent font-size.
   * **rem** Root EMS are relative to the root html element's font-size. Often easier to work with.
     
   
