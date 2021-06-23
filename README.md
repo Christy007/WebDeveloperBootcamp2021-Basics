@@ -12,7 +12,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
 - Few main things that we have to take care while building a html page.
   - Try to **build semantic webpages**, avoid using non-semantic wrappers like < div > and < span >  unless it's necessary
   - Building a semantic webpage makes your script more meaningfull and readable
-  - In body tag, start with **< header >** tag which contains the header of the webpage
+  - In body tag, start with **< header >** tag which contains the header of the webpage.
   - Then, if there is a navigation tab, define a **< nav >** tag after header tag
   - Define the **< main >** tag next, which will contain the main contents of the web page
     - **< article >** : encloses a block of related content that makes sense on its own without the rest of the page. Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
