@@ -65,12 +65,12 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
       2. <strong>method</strong> : specifies which HTTP method to be used.
     * <strong>< input></strong> element is used to create different form controls <br>
       * <strong>type</strong> attribute alters the input's behaviour and appearance <br>
-        * <strong>search</strong> attribute value for type element represents a single-line text field for entering search strings. May include a delete icon in supporting                 browsers that can be used to clear the field <br>
-        * <strong>checkbox</strong> attribute value for type element allows single values to be selected/deselected. <br>
-        * <strong>radio</strong> attribute value for type element allows a single value to be selected out of multiple choices with the same name value. <br>
-        * <strong>range</strong> attribute value for the type element displays as a range widget. <br>
-        * **password** type encrypts the value entered by the user
-        * **color** type displays a color widget where user can select a color
+        1. <strong>search</strong> attribute value for type element represents a single-line text field for entering search strings. May include a delete icon in supporting                 browsers that can be used to clear the field <br>
+        2. <strong>checkbox</strong> attribute value for type element allows single values to be selected/deselected. <br>
+        3. <strong>radio</strong> attribute value for type element allows a single value to be selected out of multiple choices with the same name value. <br>
+        4. <strong>range</strong> attribute value for the type element displays as a range widget. <br>
+        5. **password** type encrypts the value entered by the user
+        6. **color** type displays a color widget where user can select a color
       * <strong>name</strong> attribute helps to link the data in the input fields with the query parameters of the server, when a form is submitted <br>
       * <strong>placeholder</strong> attribute gives the input field a default text. <br>
     * <strong>< label ></strong> element is used to link the input/form control to a text/label.
