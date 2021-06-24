@@ -73,6 +73,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
         6. **color** type displays a color widget where user can select a color
       * <strong>name</strong> attribute helps to link the data in the input fields with the query parameters of the server, when a form is submitted <br>
       * <strong>placeholder</strong> attribute gives the input field a default text. <br>
+      * <strong>value</strong> attribute is used to specify the initial value, and from then on it can be altered
     * <strong>< label ></strong> element is used to link the input/form control to a text/label.
       * Value of <strong>for</strong> attribute in label tag should match with the value of <strong>id</strong> attribute in respective input tag <br>
     * <strong>< button ></strong> element declared inside a form is by default of submit type. To chnage the functionality of the button inside a form we use the attribute                 <strong>type</strong>. type="button" makes a button inside a form behave just like a normal button. <br>    
