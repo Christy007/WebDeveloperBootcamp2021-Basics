@@ -148,6 +148,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     }<br>
   
   ### CSS Box Model
+  *Sample file:* ***CSS Box Model/boxmodelStyles.css***
   * 4 main aspects of box model are
     * **Content box**
     * **Border**
@@ -174,13 +175,14 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   * **body** element by default has margin set to a default value, to remove this margin we can use margin property and set it to 0
    
   ### Display property
+  *Sample file:* ***Display/displayStyle.css***
   * **display** property sets whether an element is treated as a block or inline element. we have three main values for display
     * **inline** width and height are ignored. Margin and padding push elements away horizontally but not vertically
     * **block** block elements break the flow of a document. Width, Height, Margin and Padding are respected
     * **inline-block** behaves like an inline element but Width, Height, Margin and Padding are respected
          
   ### Units
-         
+  *Sample file:* ***CSS units/cssUnitStyles.css***       
   **Absolute**
     <li> **px** is the most commonly used **absolute** unit</li>
          
@@ -194,9 +196,17 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     <li> **rem** Root EMS are relative to the **root** html element's font-size. Often easier to work with.</li>
          
   ### Opacity and Alpha channel (rgba)
+   *Sample file:* ***OpacityAndAlpha/oAa.css***
    * **Alpha channel** in rgb**a** and hex value #000000**ff** represents the color's transparency.
    * **opacity** css property is the degree to which content behind an element is hidden. Applies to the **whole element** including its content
-    
+  
+  ### Position
+   *Sample file:* ***Position\position.css***
+   * position property determines how the element should be positioned in the document. The **top**, **right**, **bottom**, and **left** properties determine the final location of positioned elements
+   * **static** Positioned according to the normal flow. The top, right, bottom, left, and z-index properties have no effect.
+   * **relative** this element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.
+   * **absolute** The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block.
+   * **fixed** Fixed positioning is similar to absolute positioning, with the **exception** that the element's containing block is the initial containing block. This can be used to create a "floating" element that stays in the same position regardless of scrolling.
   
   <hr>
   
