@@ -120,7 +120,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
   * **&#42;** this represents a universal selector, changes to the proerties made using this selector will apply to all element
  * **h1,h2** represents a selector list, css style will be applied to all the elements listed
   * **descendant selector**, selector **li a** represent that css style will be applied to all  anchor tags nested inside li tag
-  * **adjacent selector**, selector **h3 + p** represent that the css style will be applied to all paragraph tags that is immediately preceeding after h3
+  * **adjacent selector**, selector **h3 + p** represent that the css style will be applied to all paragraph tags that is immediately preceeding(can be sibling) after h3
   * **direct child**, selector **form > h4** selects all h4 which is direct-child/direct-descendant of form
   * **attribute selector**, ex: h4[class*="eForm"] selects all h4 where class contains the text "eForm"
   * **pseudo classes** are the keywords added to a selector that specifies a special state of the element selected<br>
@@ -159,7 +159,8 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     * **border-width** : sets the width of the border element. px is the most commonly used unit as the border-width is constant all the time
     * **border-color** : sets the color of border element
     * **border-style** : sets the line style for all four sides of an element's border
-  * **box-sizing** this property can be used if you dont want the element to takeup extra space to implement the border
+  * **box-sizing** this property can be used if you dont want the element to takeup extra space to implement the border<br>
+    ex: box-sizing: **border-box**
   * Also width, style and color for each sides of the border can be set separately using properties like **border-left-color**, **border-right-width**....
   * **border** can be used to set all three main properties at once, instead of writing different line of code for each property<br>
     ex: border **width** **style** **color**
@@ -179,13 +180,22 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     * **inline-block** behaves like an inline element but Width, Height, Margin and Padding are respected
          
   ### Units
-  * **px** is the most commonly used **absolute** unit
-  * **%** sometimes, it's a value from the parent and other times it's a value from the element itself
-    * **width: 50%** - half the width of the parent
-    * **line-height: 50%** - half the font-size of the element itself
-  * **em** there are **relative** units. With font-size property, 1em equals the font-size of the parent. 2 em's is twice the font-size of the parent. With other properties, 1 em is equal to the computed font-size of the element itself.
-  * Disadvantage of **em** is that, if we have same elements nested, there are chances that the child elements increase or decrease their size drastically as each child elements size depends on its immediate parent font-size.
-  * **rem** Root EMS are relative to the root html element's font-size. Often easier to work with.
+         
+  **Absolute**
+    <li> **px** is the most commonly used **absolute** unit</li>
+         
+  **Relative**
+    <li> **%** sometimes, it's a value from the parent and other times it's a value from the element itself</li>
+    <ul> <li>**width: 50%** - half the width of the parent</li>
+         <li>**line-height: 50%** - half the font-size of the element itself</li>
+    </ul>
+    <li> **em** there are **relative** units. With **font-size** property, 1em equals the font-size of the parent. 2 em's is twice the font-size of the parent. With **other** properties, 1 em is equal to the computed font-size of the element itself.</li>
+    <li> Disadvantage of **em** is that, if we have same elements nested, there are chances that the child elements increase or decrease their size drastically as each child elements size depends on its immediate parent font-size.</li>
+    <li> **rem** Root EMS are relative to the **root** html element's font-size. Often easier to work with.</li>
+         
+  ### Opacity and Alpha channel (rgba)
+   * **Alpha channel** in rgb**a** and hex value #000000**ff** represents the color's transparency.
+   * **opacity** css property is the degree to which content behind an element is hidden. Applies to the **whole element** including its content
     
   
   <hr>
