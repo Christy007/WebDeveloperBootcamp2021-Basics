@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+
+#middle{
+    background-color: silver;
+}
+
+#static #middle{
+    position: static;
+    top: 50px;
+}
+
+#relative #middle{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+#absolute{
+    position: relative;
+}
+
+#absolute #middle{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fixed #middle{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 3rem;
+    background-color: teal;
+    position: fixed;
+    top: 50px;
+    left: 500px;
+}
