@@ -1,0 +1,32 @@
+#alpha{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+#ap1{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+#opacity{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    background-color: crimson;
+}
+
+#op1{
+    width: 50%;
+    height: 50%;
+    opacity: 0.2;
+}
+
+h2{
+    text-align: center;
+    color: yellow;
+}
