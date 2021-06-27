@@ -215,6 +215,17 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
    * **transition-duration** sets the length of time a transition animation should take to complete.
    * **transition-timing-function** sets how intermediate values are calculated for CSS properties being affected by a transition effect.
    * **transition-delay** specifies the duration to wait before starting a property's transition effect.
+         
+  ### Transform
+   *Sample file:* ***Transform\transform.css***
+   * **transform** this property lets you rotate, scale, skew, or translate an element.
+   * transform: **rotate(45deg)** rotates the element around a fixed point. The amount of rotation created by rotate() is specified by an <angle>. If positive, the movement will be clockwise; if negative, it will be counter-clockwise.
+   * **transform-origin**: top left - property sets the origin for an element's transformations.
+   * transform: **scale(0.7)** defines a transformation that resizes an element on the 2D plane.
+   * transform: **translate(-100px, 40px)** repositions an element in the horizontal and/or vertical directions.
+   * transform: **skew(10deg, 20deg)** defines a transformation that skews an element on the 2D plane. The effect is as if you grabbed each corner of the element and pulled them along a certain angle.
+   * Also we can specify two or more transform properties at once<br>
+     ex: transform: **translate**(-300px) **skew**(-10deg)
   
   <hr>
   
