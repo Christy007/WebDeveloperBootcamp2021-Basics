@@ -207,6 +207,14 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
    * **relative** this element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.
    * **absolute** The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block.
    * **fixed** Fixed positioning is similar to absolute positioning, with the **exception** that the element's containing block is the initial containing block. This can be used to create a "floating" element that stays in the same position regardless of scrolling.
+         
+  ### Transition
+   *Sample file:* ***Transition\transition.css***
+   * Transitions enable you to define the transition between two states of an element.
+   * **transition-property** sets the CSS properties to which a transition effect should be applied.
+   * **transition-duration** sets the length of time a transition animation should take to complete.
+   * **transition-timing-function** sets how intermediate values are calculated for CSS properties being affected by a transition effect.
+   * **transition-delay** specifies the duration to wait before starting a property's transition effect.
   
   <hr>
   
