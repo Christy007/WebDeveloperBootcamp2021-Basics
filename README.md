@@ -229,6 +229,14 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
          
   ### Background
    *Sample file:* ***Transform\transform.css***
+   * **background** property sets all background style properties at once, such as color, image, origin and size, or repeat method.
+   * **background-repeat** sets how background should be repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.
+   * **background-size** sets the size of the background image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+   * **background-position** property sets the initial position for each background image.
+   * **background-image** property sets **one or more** background images on an element.
+   * While using the shorthand, we have to use **/** after position to specify the background size<br>
+     ex: background: no-repeat center **/** contain url(""), url("")
+    
   
   <hr>
   
