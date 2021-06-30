@@ -239,9 +239,24 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
     
    ### FlexBox
    *Sample file:* ***FlexBox\flexbox.css***
+   * Flexbox is a one-dimensional layout method for laying out items in rows or columns
+   * Flexbox adjusts itself within the container. If flexbox doesn't have sufficient space to fit within the container, then it shrinks to fit within the container. If container has sufficient space to fit the flexbox, then flexbox takes up the width and height specified in the style sheet.
+   * Flexbox has two axis, main axis(X) and cross axis(Y).
+   * **display:flex** property specifies that the display element should behave like a block element and lays out its content according to the flexbox model.
+   * **fexbox-direction**: row; specifies in which way the flexbox should be arranged(row, column, row-reversed, column-reveresed)
+   * **justify-content** property defines how the browser distributes space between and around content items along the main-axis of a flex container.(flex-end, center, space-around, apce-between, space-evenly, default -> flex-start)
+   * **flex-wrap** property sets whether flex items are forced onto one line or can wrap onto multiple lines.(nowrap, wrap, wrap-reverse)
+   * **align-items** it controls the alignment of items on the Cross Axis.(center, flex-end, baseline)
+   * **align-content**  property sets the distribution of space between and around content items along a flexbox's cross-axis. (center, space-around, space-between)
+   * **align-self** this property align a particular element along it's cross axis
+   * **flex-basis** defines the initial size of an element before aditional space is distributed
+   * **flex-grow** controls the amount of available space an element should takeup.
+   * **flex-shrink** if items are larger than the container, they shrink according to the flex-shrink value.
+   * **flex** is the shorthand to define flex-basis, flex-grow and flex-shrink together<br>
+         ex: flex: flex-basis flex-grow flex-shrink;
   
   <hr>
   
- ###### References:
-  * https://developer.mozilla.org/
-  - https://docs.github.com/en/github/writing-on-github
+ ### References:
+ https://developer.mozilla.org/en-US/docs/Web 
+         by [MDN contributors](https://developer.mozilla.org/en-US/docs/Web/contributors.txt)
