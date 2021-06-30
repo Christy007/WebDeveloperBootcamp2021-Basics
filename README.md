@@ -228,7 +228,7 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
      ex: transform: **translate**(-300px) **skew**(-10deg)
          
   ### Background
-   *Sample file:* ***Transform\transform.css***
+   *Sample file:* ***Background\background.css***
    * **background** property sets all background style properties at once, such as color, image, origin and size, or repeat method.
    * **background-repeat** sets how background should be repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.
    * **background-size** sets the size of the background image. The image can be left to its natural size, stretched, or constrained to fit the available space.
@@ -237,6 +237,8 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
    * While using the shorthand, we have to use **/** after position to specify the background size<br>
      ex: background: no-repeat center **/** contain url(""), url("")
     
+   ### FlexBox
+   *Sample file:* ***FlexBox\flexbox.css***
   
   <hr>
   
