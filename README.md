@@ -255,6 +255,13 @@ Sample of proper HTML structure is written in the file **"ProperHTMLStrucute.htm
    * **flex** is the shorthand to define flex-basis, flex-grow and flex-shrink together<br>
          ex: flex: flex-basis flex-grow flex-shrink;
   
+   ### Media Queries
+   *Sample file:* ***Media Queries\mediaqueries.css***  
+   * Media queries allows us to modify our styles depending on particular parameters like screen width or device type
+   * **@media(width: 800px)** defines that the style inside this function will be implemented when visible width of browser is at 800px
+   * Many media features are range features, which means they can be prefixed with "min-" or "max-" to express "minimum condition" or "maximum condition" constraints.
+   * **@media(min-width: 500px) and (min-width: 1000px)** defines that style will be implemented when width >500 and <1000px
+         
   <hr>
   
  ### References:
